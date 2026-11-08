@@ -1,0 +1,6 @@
+{
+  "name": "Crônicas de Sire Alaric",
+  "description": "RPG tático medieval dark fantasy com combate por turnos, diário de missões, bazar de mercador e evolução de herói inspirado no protótipo Sire Alaric.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

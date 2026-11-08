@@ -1,0 +1,73 @@
+import { BestiaryEntry } from '../types/game';
+
+export const BESTIARY_DATA: Record<string, BestiaryEntry> = {
+  shadow_chimera: {
+    enemyId: 'shadow_chimera',
+    name: 'Quimera Sombria da Montanha',
+    title: 'Besta Antiga das Fendas Nebulosas',
+    category: 'Fera Antiga',
+    location: 'Passo da Montanha dos Corvos',
+    lore: 'Nascida das fraturas de enxofre e névoa escura nas encostas do Pico das Lâminas, a Quimera é uma abominação de sombras vivas e garras de obsidiana afiada. Relatos antigos da Ordem Dourada contam que ela guarda os desfiladeiros abandonados, atacando caravanas mercantes e rasgando couraças com facilidade estarrecedora.',
+    weakness: 'Vulnerável à Luz Sagrada e dano de fogo purificador (+50% de dano ao sofrer Castigo Divino).',
+    resistance: 'Elevada resistência a cortes de ferro comuns e névoas venenosas.',
+    tacticalTip: 'Seu Golpe Sombrio Dilacerante causa Hemorragia Severa. Utilize Imposição de Mãos ou Poção de Cura imediatamente para estancar o ferimento aberto.',
+    stats: {
+      level: 12,
+      hp: 120,
+      attack: 16,
+      defense: 8,
+    },
+    possibleDrops: [
+      { name: 'Moedas de Ouro (320)', chance: '100%', icon: '🪙' },
+      { name: 'Gemas das Fendas (12)', chance: '100%', icon: '💎' },
+      { name: 'Machado de Guerra Pesado', chance: '35%', icon: '🪓' },
+      { name: 'Garra de Obsidiana Rara', chance: '60%', icon: '🦅' },
+    ],
+  },
+  swamp_wraith: {
+    enemyId: 'swamp_wraith',
+    name: 'Espírito Voraz do Pântano',
+    title: 'Aparição Lamentosa das Águas Escuras',
+    category: 'Espírito',
+    location: 'Pântano dos Murmúrios',
+    lore: 'As almas dos antigos peregrinos que pereceram na travessia das águas lodosas foram condensadas em uma névoa rancorosa pela magia carmesim. Não possuem substância puramente carnal, alimentando-se do calor e da esperança daqueles que ousam entrar em seus domínios encharcados.',
+    weakness: 'Aura Sagrada de Paladino e feitiços de Sabedoria divina; não tolera a presença da verdade luminosa.',
+    resistance: 'Imunidade parcial a impactos contundentes e armas sem encantamento.',
+    tacticalTip: 'A aparição drena vida diretamente com o Toque de Almas. Erga o Escudo de Solis para anular o roubo de energia e contra-ataque com determinação.',
+    stats: {
+      level: 10,
+      hp: 95,
+      attack: 14,
+      defense: 6,
+    },
+    possibleDrops: [
+      { name: 'Moedas de Ouro (210)', chance: '100%', icon: '🪙' },
+      { name: 'Gemas Espirituais (6)', chance: '100%', icon: '💎' },
+      { name: 'Poção de Cura Maior', chance: '50%', icon: '🧪' },
+      { name: 'Essência Ectoplásmica', chance: '80%', icon: '💧' },
+    ],
+  },
+  corrupted_lord: {
+    enemyId: 'corrupted_lord',
+    name: 'Lorde Malakor, O Renegado',
+    title: 'Ex-Comandante da Ordem Dourada',
+    category: 'Lorde Abissal',
+    location: 'Cripta dos Antigos Paladinos',
+    lore: 'Outrora o herói mais virtuoso de Solis e tutor de armas de Sire Alaric. Cego pela obsessão de salvar seu reino da decadência, Malakor aceitou o pacto das cinzas abissais guardado nas catacumbas proibidas. Hoje, empunha uma claymore flamejante e comanda as legiões de sombras com frieza impiedosa.',
+    weakness: 'Golpes críticos de armas estelares (Lâmina do Crepúsculo) e julgamento divino focado.',
+    resistance: 'Armadura pesada de placas ancestrais forjadas na primeira cruzada; impassível contra atordoamentos.',
+    tacticalTip: 'A Chama Negra dos Traidores inflige dano massivo e dilacera defesas. Guarde mana para curas críticas e execute o Castigo Divino assim que a guarda dele oscilar.',
+    stats: {
+      level: 14,
+      hp: 180,
+      attack: 22,
+      defense: 12,
+    },
+    possibleDrops: [
+      { name: 'Moedas de Ouro (680)', chance: '100%', icon: '🪙' },
+      { name: 'Gemas Abissais (30)', chance: '100%', icon: '💎' },
+      { name: 'Lâmina do Crepúsculo Sagrada', chance: '45%', icon: '✨' },
+      { name: 'Brasão Manchado de Cinzas', chance: '100%', icon: '🛡️' },
+    ],
+  },
+};
