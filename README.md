@@ -4,7 +4,7 @@
 
 ### 📋 Descrição Rápida para o Repositório (GitHub / GitLab About)
 
-> **Crônicas de Sire Alaric** é um RPG tático medieval dark fantasy desenvolvido com React 19, Vite, TypeScript e Tailwind CSS. Apresenta combate estratégico por turnos, sistema de elixires e poções de aprimoramento temporário, clima dinâmico procedural, bestiário ilustrado com fraquezas táticas, síntese sonora com Web Audio API nativo e progressão completa de personagem.
+> **Crônicas de Sire Alaric** é um RPG tático medieval dark fantasy desenvolvido com React 19, Vite e Tailwind CSS. Combate estratégico por turnos, sistema de elixires com buffs temporários, bestiário ilustrado, motor de áudio procedural com Web Audio API nativo e efeitos visuais de impacto visceral.
 
 ---
 

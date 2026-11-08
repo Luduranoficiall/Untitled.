@@ -1,6 +1,6 @@
 {
   "name": "Crônicas de Sire Alaric",
-  "description": "RPG tático medieval dark fantasy com combate por turnos, diário de missões, bazar de mercador e evolução de herói inspirado no protótipo Sire Alaric.",
+  "description": "RPG tático medieval dark fantasy desenvolvido com React 19, Vite e Tailwind CSS. Combate estratégico por turnos, sistema de elixires com buffs temporários, bestiário ilustrado, motor de áudio procedural com Web Audio API nativo e efeitos visuais de impacto visceral.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
