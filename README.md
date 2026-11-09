@@ -248,10 +248,19 @@ cronicas-de-sire-alaric/
   - **Drone de Trítono Dissonante:** Frequência harmônica aguda que coroa o clímax da batalha.
 - **Controles Integrados no Combate:** Badge visual no cabeçalho indicando a trilha ativa, estado de tensão extrema e botão de alternância rápida de áudio.
 
-### 7. Bestiário Medieval e Fraquezas
-- Registro automático de cada criatura enfrentada no reino.
-- Desbloqueio de fraquezas elementais detalhadas (Fogo, Sagrado, Esmagamento) e conselhos de caçada.
-- Contador de abates por tipo de monstro e cálculo de taxa de sucesso.
+### 7. Bestiário Medieval Avançado & Dossiê de Espécies
+- **Inspeção Detalhada e Dossiê Completo:** O jogador pode clicar em qualquer criatura do catálogo para abrir sua ficha tática aprofundada, com filtros por status (`Todos`, `Derrotados`, `Não Vencidos`) e insígnia de abates totais.
+- **Matriz de Fraquezas & Resistências Elementais:**
+  - Multiplicadores quantificados de dano (ex: *Luz Sagrada +50%*, *Fogo +30%*, *Contusão +20%* vs. *Lâmina de Ferro -40%*, *Miasma/Trevas -65%* e imunidades a *Veneno/Hemorragia*).
+  - Justificativa biológica e lore de cada resistência/vulnerabilidade.
+  - Recomendação de tipo de armamento ideal (ex: *Martelo de Guerra Sagrado*, *Tocha Solar & Lâmina Prateada*) e Dica Tática de Campo assinada por Sire Alaric.
+- **Histórico de Derrotas da Espécie (`bestiaryKills`):**
+  - Registro de vitórias persistido em `localStorage` sob a chave `sire_alaric_bestiary_v1`.
+  - **Patentes de Maestria de Caça:** Progressão dinâmica baseada no número de abates (*Iniciado na Caça*, *Caçador Veterano*, *Exterminador Implacável*, *Mestre Algoz da Espécie*) com barra de progresso visual.
+  - **Espólios Totais Acumulados:** Estimativa de riqueza e experiência conquistadas daquela espécie (Moedas de Ouro, Gemas Raras e Pontos de Experiência).
+  - **Relatório de Contenção & Ameaça:** Nível de contenção nos ermos de Solis baseado no volume de abates.
+  - **Registro Canônico de Vitórias:** Detalhes da primeira e mais recente vitória contra o monstro.
+- **Desafio Rápido no Campo de Batalha:** Botão integrado para iniciar combate direto contra a criatura selecionada na Arena.
 
 ### 8. Bazar de Mercadorias de Valéria
 - Negociação mercantil com a intendente Valéria.

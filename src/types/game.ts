@@ -166,6 +166,14 @@ export interface Enemy {
   quote: string;
 }
 
+export interface ElementalTrait {
+  element: 'holy' | 'fire' | 'lightning' | 'physical_slash' | 'physical_crush' | 'physical_pierce' | 'dark' | 'poison' | 'bleed' | 'ice' | 'arcane';
+  label: string;
+  icon: string;
+  multiplier: string;
+  description: string;
+}
+
 export interface BestiaryEntry {
   enemyId: string;
   name: string;
@@ -187,6 +195,10 @@ export interface BestiaryEntry {
     chance: string;
     icon: string;
   }[];
+  elementalWeaknesses?: ElementalTrait[];
+  elementalResistances?: ElementalTrait[];
+  recommendedWeaponType?: string;
+  dangerLevel?: 'Moderada' | 'Severa' | 'Letal' | 'Apocalíptica';
 }
 
 export type ActiveTab = 'character' | 'quests' | 'battle' | 'bazaar' | 'inventory' | 'bestiary';
